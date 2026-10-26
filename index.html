@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Individual JavaScript DOM Practice</title>
+  <link rel="stylesheet" href="css/style.css"><script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header"><p class="eyebrow">INDIVIDUAL WORK · TASKS 6–10</p><h1>JavaScript DOM & Events Practice</h1><p>Five independent exercises using plain JavaScript and addEventListener().</p></header>
+<main>
+<section class="task-card" id="task6"><span class="task-number">TASK 6</span><h2>Counter with Click Events</h2><p class="description">Increase and decrease the counter. The value cannot be negative.</p><p class="counter-value" aria-live="polite">0</p><div class="button-row"><button type="button" id="increaseBtn">Increase</button><button type="button" id="decreaseBtn" class="secondary">Decrease</button><button type="button" id="resetBtn" class="outline">Reset</button></div><p class="hint">Try Decrease at 0, then press Reset.</p></section>
+<section class="task-card" id="task7"><span class="task-number">TASK 7</span><h2>Live Text Preview</h2><label for="liveTextInput">Enter text</label><textarea id="liveTextInput" rows="3" placeholder="Type or paste something..."></textarea><div class="preview-box"><p class="small-label">PREVIEW</p><p id="textPreview" aria-live="polite">Your text will appear here</p></div><p class="character-count">Characters: <strong id="charCount">0</strong></p><button type="button" id="clearTextBtn" class="secondary">Clear</button></section>
+<section class="task-card" id="task8"><span class="task-number">TASK 8</span><h2>Change an Image with Select</h2><label for="imageSelect">Choose an image</label><select id="imageSelect"><option value="car">Car</option><option value="mountain">Mountain</option><option value="city">City</option></select><figure class="image-figure"><img id="selectedImage" src="images/car.svg" alt="Illustration of a car"><figcaption id="imageCaption">Car — selected image</figcaption></figure><p class="hint">Choose another option to update the image, alt text and caption.</p></section>
+<section class="task-card" id="task9"><span class="task-number">TASK 9</span><h2>Keyboard Events</h2><label for="keyboardInput">Type here, then press Enter or Escape</label><input type="text" id="keyboardInput" autocomplete="off" placeholder="Type a message..."><p class="status-line" id="keyStatus" aria-live="polite">Last key: none</p><div class="preview-box"><p class="small-label">ENTER RESULT</p><p id="keyboardResult" aria-live="polite">Your submitted text will appear here.</p></div><p class="hint">Enter displays the current text. Escape clears the input and result.</p></section>
+<section class="task-card" id="task10"><span class="task-number">TASK 10</span><h2>Mouse and Focus Events</h2><p class="description">Move the mouse over the card, or use Tab to focus it.</p><div class="interactive-card" id="focusCard" tabindex="0"><h3>Interactive card</h3><p>This card responds to mouse and keyboard focus.</p></div><p id="focusInstruction" class="status-line" aria-live="polite">Hover over or focus the card to highlight it.</p><p class="hint"><strong>Events:</strong> mouseenter/focus add the highlight; mouseleave/blur remove it.</p></section>
+</main><footer><p>Individual JavaScript practice · Tasks 6–10</p></footer>
+</body></html>
